@@ -9,6 +9,10 @@ Pin1 on each of the three headers has it's solder mask opening a little too larg
 
 PL1 is the Master header.  PL2 is the 1st Slave header.
 
+| ![](pin_numbering_1.png) | ![](pin_numbering_2.png) |
+| --- | --- |
+| When studying the schematic, make note of the pin numbering between the symbol and the footprint of PL1 & PL2. |
+
 There will be a rev B of this design in the near future.\
 The new revision will use programmable (with a capacitor) reset supervisor IC, so each of the PICO2 modules will have their nRESET inputs released in sequence upon power connected to the board.\
 This will ensure the ttyACMx enumerations are in the sequence we want.\
