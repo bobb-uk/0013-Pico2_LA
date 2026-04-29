@@ -3,6 +3,8 @@ Logic analyser variant originally by El Gusman  https://github.com/gusmanb
 
 Please note:  The M3 mounting holes have their PTH set at 3.0mm by mistake when it should be 3.2mm
 
+Gusman_LA_carrier_SML.jpg
+
 There will be a rev B of this design in the near future.
 The new revision will use programmable (with a capacitor) reset supervisor IC, so
 each of the PICO2 modules will have their nRESET inputs released in sequence upon power
