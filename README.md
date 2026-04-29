@@ -1,12 +1,14 @@
 # 0013-Pico2_LA
 Logic analyser variant originally by El Gusman  https://github.com/gusmanb\
-\
+
 Design errors:\
 The M3 mounting holes have their PTH set at 3.0mm by mistake when it should be 3.2mm\
 Pin1 on each of the three headers has it's solder mask opening a little too large.  It is possible to short the pin to GND when assembling.\
 \
 ![Gusman_LA_carrier_SML.jpg](Gusman_LA_carrier_SML.jpg)
-\
+
+PL1 is the Master header.  PL2 is the 1st Slave header.
+
 There will be a rev B of this design in the near future.\
 The new revision will use programmable (with a capacitor) reset supervisor IC, so each of the PICO2 modules will have their nRESET inputs released in sequence upon power connected to the board.\
 This will ensure the ttyACMx enumerations are in the sequence we want.\
