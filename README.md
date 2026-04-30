@@ -18,3 +18,5 @@ The new revision will use programmable (with a capacitor) reset supervisor IC, s
 This will ensure the ttyACMx enumerations are in the sequence we want.\
 Then we can assign ttyACM0 as the Master and ttyACM1 as the first Slave and know for certain that ttyACM0 references the Master pins on the signal headers.\
 This saves having to use DMESG to look at which PICO2 was given which ttyACM port.
+
+Head over to the Discussions tab if you want to make any comments.
